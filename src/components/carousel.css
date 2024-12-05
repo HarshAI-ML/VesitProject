@@ -1,0 +1,23 @@
+.carousel-container {
+    width: 100vw; /* Full viewport width */
+    max-width: 100%; /* Prevent exceeding viewport width */
+    overflow: hidden;
+    margin-top: 60px; /* Adjust to align below navbar */
+  }
+  
+  .carousel .slide img {
+    width: 100%; /* Ensure the image spans the full width */
+    height: 100%; /* Ensure it fills the container height */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    display: block; /* Removes extra spacing caused by inline images */
+  }
+  
+  .carousel .slide {
+    height: 400px; /* Set the height of the carousel */
+  }
+  
+  .carousel {
+    width: 100%;
+    height: auto; /* Ensure responsiveness */
+  }
+  

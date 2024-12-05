@@ -1,0 +1,41 @@
+/* Loading screen styles */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    width: 100vw;  /* Full screen width */
+    flex-direction: column;
+    background-color: #34c5db;  /* Set background color to blue */
+    position: absolute; /* Ensure it covers the whole screen */
+    top: 0;
+    left: 0;
+    background-image: url('https://wallpaperaccess.com/full/659794.jpg');  /* Set your background image */
+    background-size: cover;  /* Make the background cover the entire container */
+    background-position: center center;  /* Center the image both horizontally and vertically */
+    background-repeat: no-repeat;  /* Prevent background from repeating */
+    object-fit: cover;  /* Ensure the image covers the area without stretching */
+    z-index: -1;
+  }
+  
+  .loading-spinner {
+    border: 8px solid #e50909; /* Light gray border */
+    border-top: 8px solid #ffffff; /* White spinner */
+    border-radius: 50%;
+    width: 100px;  /* Size of the spinner */
+    height: 100px; /* Size of the spinner */
+    animation: spin 2s linear infinite; /* Animation for rotation */
+  }
+  
+  /* Spin animation */
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #fff; /* White color for the loading text */
+    margin-top: 20px; /* Space between spinner and text */
+  }
+  
