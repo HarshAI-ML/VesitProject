@@ -1,0 +1,23 @@
+.Maintitle {
+    font-family: 'Arial', sans-serif; /* Change to your preferred font */
+    font-size: 2.5rem; /* Adjust the size as needed */
+    font-weight: bold; /* Make the title bold */
+    color: #2d89ef; /* Choose a vibrant color, such as blue */
+    text-align: center; /* Center the title */
+    margin: 20px 0; /* Add spacing around the title */
+    text-transform: uppercase; /* Make all letters uppercase */
+    letter-spacing: 2px; /* Add space between letters for style */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+    animation: fadeIn 2s ease-in-out; /* Add a fade-in animation */
+  }
+  
+  /* Optional: Animation for fade-in effect */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
