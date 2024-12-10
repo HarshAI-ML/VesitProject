@@ -6,7 +6,7 @@ const Loading = () => {
   return (
     
     <div className="loading-container">
-      <b> <h2 class="Maintitle">Phygital Farms</h2></b>
+      <b> <h2 class="Maintitle">Kisan Sadhan</h2></b>
       <div className="loading-spinner"></div>
       <p>Loading...</p>
       
