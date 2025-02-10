@@ -4,7 +4,7 @@
     justify-content: space-between; /* This will make the logo and the links spaced out */
     align-items: center; /* Vertically align items */
     padding: 10px 20px;
-    background-color: #e63946; /* Red background color */
+    background-color: rgb(203, 203, 21); /* Red background color */
     color: white;
     font-family: Arial, sans-serif;
     position: fixed; /* Keeps the navbar fixed at the top */
@@ -25,7 +25,8 @@
   
   /* Logo image size */
   .logo img {
-    height: 40px;
+    height: 65px;
+    width:70px;
     margin-right: 10px;
   }
   

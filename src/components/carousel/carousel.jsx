@@ -16,13 +16,13 @@ const ImageCarousel = () => {
         showStatus={false}
       >
         <div>
-          <img src="https://tse1.mm.bing.net/th?id=OIP.PcRg36hCRMfZuZZNSP_t4QHaEK&pid=Api&P=0&h=180" alt="Slide 1" />
+          <img src="public/locales/images/kisanlogo.webp" alt="Slide 1" />
         </div>
         <div>
-          <img src="https://tse1.mm.bing.net/th?id=OIP.qYtf8jK6RsCbHLtYbgJxsAHaC9&pid=Api&P=0&h=180" alt="Slide 2" />
+          <img src="https://wallpaperaccess.com/full/1598237.jpg" alt="Slide 2" />
         </div>
         <div>
-          <img src="https://tse1.mm.bing.net/th?id=OIP.qYtf8jK6RsCbHLtYbgJxsAHaC9&pid=Api&P=0&h=180" alt="Slide 3" />
+          <img src="https://wallpaperaccess.com/full/1598237.jpg" alt="Slide 3" />
         </div>
       </Carousel>
     </div>

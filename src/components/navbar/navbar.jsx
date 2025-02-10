@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import "./Navbar.css";
 import LanguageSwitcher from "../languageTranslate/LanguageSwitcher";
-
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const { t } = useTranslation("common");
@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img src="https://tse4.mm.bing.net/th?id=OIP.05qb5mT_CO-lOxwjiYo4vwHaEk&pid=Api&P=0&h=180" alt="Phygital Logo" />
+        <img src="public/locales/images/kisanlogo.webp" alt="Phygital Logo" />
       </div>
       <ul className="nav-links">
   <li>
@@ -34,6 +34,9 @@ const Navbar = () => {
   </li>
   <li>
     <a href="#contact">{t("navbar.contact")}</a>
+  </li>
+  <li>
+  <Link to="/signup">{t("navbar.signup")}</Link>
   </li>
 </ul>
 
