@@ -15,25 +15,25 @@ const Navbar = () => {
       </div>
       <ul className="nav-links">
   <li>
-    <a href="#about">{t("navbar.about")}</a>
+    <Link to ="/about">{t("navbar.about")}</Link>
   </li>
   <li>
-    <a href="#hire">{t("navbar.hire")}</a>
+    <Link to ="/hire">{t("navbar.hire")}</Link>
   </li>
   <li>
-    <a href="#rent">{t("navbar.rent")}</a>
+    <Link to ="/rent">{t("navbar.rent")}</Link>
   </li>
   <li>
-    <a href="#partnerships">{t("navbar.partnerships")}</a>
+    <Link to ="/partnerships">{t("navbar.partnerships")}</Link>
   </li>
   <li>
-    <a href="#fpo">{t("navbar.fpo")}</a>
+    <Link to="/fpo">{t("navbar.fpo")}</Link>
   </li>
   <li>
-    <a href="#newsroom">{t("navbar.newsroom")}</a>
+    <Link to="/newsroom">{t("navbar.newsroom")}</Link>
   </li>
   <li>
-    <a href="#contact">{t("navbar.contact")}</a>
+    <Link to="/contact">{t("navbar.contact")}</Link>
   </li>
   <li>
   <Link to="/signup">{t("navbar.signup")}</Link>
