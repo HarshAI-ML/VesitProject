@@ -33,6 +33,7 @@ import Services from "./components/Services/services";
 import Founders from "./components/Founders/founders";
 import Signup from "./components/signup/signup"; // Import Signup component
 import "./App.css";
+import About from "./components/About/about";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -51,6 +52,7 @@ function App() {
           <Routes>
             <Route path="/" element={<><ImageCarousel /><Services /><Founders /></>} />
             <Route path="/signup" element={<Signup />} />
+            <Route path="/about" element={<About/>}/>
           </Routes>
         </>
       )}
