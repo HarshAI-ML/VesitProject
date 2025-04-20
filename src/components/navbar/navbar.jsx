@@ -38,6 +38,9 @@ const Navbar = () => {
   <li>
   <Link to="/signup">{t("navbar.signup")}</Link>
   </li>
+  <li>
+  <Link to="/login">{t("navbar.login")}</Link>
+  </li>
 </ul>
 
       <LanguageSwitcher />
